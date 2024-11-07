@@ -3,7 +3,9 @@
 **Assignment Overview**
 
 This assignment focuses on the design, implementation and testing of Python programs to process data files and extract meaningful information from them.
+
 We use the dataset called State_Data.csv. The source can be found here: https://drive.google.com/drive/u/0/folders/1JeNy2JQVfmSzIy8ZJiwqECWJ7rFWweMZ 
+
 The document Project.02.docx serves as an inspiration for this project, but we have made some changes. 
 
 **Task 1** (Björnar)
