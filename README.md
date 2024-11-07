@@ -16,3 +16,9 @@ The user is first prompted to select a region, after which the code filters out 
 
 Once a state is chosen, the code displays key economic data for that state, including population, GDP, personal income, and the calculated per capita values. Additionally, the code generates two visualizations to help the user better understand the state’s economic standing within its region. A bar chart displays income per capita across all states in the selected region, allowing for easy comparison of income distribution. Furthermore, a pie chart highlights the chosen state’s share of the region’s total GDP, visually emphasizing its economic contribution compared to other states in the region.
 
+An overview of lists and what they contain is provided as follows:
+data_list: Holds all state data.
+state_data: Represents one state's data within loops.
+result and region_data: Filtered lists for the selected region.
+valid_regions and valid_states: Sets of unique region and state names.
+selected_state_data: Detailed data for the user-selected state.
