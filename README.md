@@ -22,3 +22,7 @@ state_data: Represents one state's data within loops.
 result and region_data: Filtered lists for the selected region.
 valid_regions and valid_states: Sets of unique region and state names.
 selected_state_data: Detailed data for the user-selected state.
+
+**Task 2** (Andreas)
+
+This regression code analyzes the relationship between population and GDP across U.S. states to see if population size can predict economic output. It first splits the data into training and testing sets to validate the model’s performance, then fits a linear regression model on the training data. Using Mean Squared Error (MSE) and R² score, the model’s accuracy is assessed by comparing predicted GDP values with actual values in the test set. A scatter plot displays the actual data points, with the regression line overlaid to visually represent the model’s interpretation of the relationship. This approach provides insights into how well population size correlates with GDP and highlights the strength of this linear relationship.
