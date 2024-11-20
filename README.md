@@ -41,6 +41,7 @@ Explanation of Correlation Coefficients:
 **Task** (Phil)
 
 -- 1 --
+
 This code generates heatmaps to provide a clear and concise comparison of key economic indicators across U.S. states. The dataset, which includes metrics such as population, GDP, and personal income, is processed and sorted to ensure the visualizations are both accurate and intuitive.
 
 Each heatmap highlights a single metric, allowing users to easily compare states. States are dynamically sorted by their values within each metric, ensuring that the visualizations emphasize the most significant differences. A red-orange color gradient enhances readability, while numeric annotations with one decimal precision provide clarity.
@@ -49,4 +50,4 @@ Features eatures:
 - Sorted Visualizations: States are ranked by their values in each heatmap, making it easy to identify top and bottom performers.
 - Side-by-Side Comparisons: Multiple heatmaps are displayed in a grid layout, allowing users to compare metrics like population, GDP, and income simultaneously.
 
-**-- 2 --**
+-- 2 --
