@@ -51,3 +51,9 @@ Features eatures:
 - Side-by-Side Comparisons: Multiple heatmaps are displayed in a grid layout, allowing users to compare metrics like population, GDP, and income simultaneously.
 
 -- 2 --
+
+This code performs a clustering analysis to group U.S. states based on their GDP and personal income. Using KMeans clustering, the states are categorized into four distinct clusters, providing insights into their economic similarities and differences. 
+
+A scatterplot visualizes the clusters by plotting GDP against personal income, with each cluster highlighted in a different color. The scatterplot also includes annotations in the legend to indicate the number of states in each cluster, making the distribution clear at a glance.
+
+To further analyze the clusters, the code generates boxplots for variables like GDP, personal income, and population. These boxplots, arranged in a 2x2 grid, provide a detailed view of how these variables are distributed within each cluster, highlighting economic disparities and patterns across states.
