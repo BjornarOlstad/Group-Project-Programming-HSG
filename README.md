@@ -39,6 +39,7 @@ Explanation of Correlation Coefficients:
 - Correlation of -1: A correlation coefficient of -1 indicates a perfect negative linear relationship between two variables. This means that as one variable increases, the other variable decreases in a perfectly linear manner. In a scatter plot, the data points would form a straight line with a negative slope.
 
 **Task** (Phil)
+
 -- 1 --
 This code generates heatmaps to provide a clear and concise comparison of key economic indicators across U.S. states. The dataset, which includes metrics such as population, GDP, and personal income, is processed and sorted to ensure the visualizations are both accurate and intuitive.
 
