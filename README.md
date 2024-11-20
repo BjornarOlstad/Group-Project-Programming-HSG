@@ -37,3 +37,15 @@ Explanation of Correlation Coefficients:
 - Correlation of 0: A correlation coefficient of 0 indicates no linear relationship between two variables. This means that changes in one variable do not predict changes in the other variable. In a scatter plot, the data points would be scattered randomly with no discernible pattern or trend.
 
 - Correlation of -1: A correlation coefficient of -1 indicates a perfect negative linear relationship between two variables. This means that as one variable increases, the other variable decreases in a perfectly linear manner. In a scatter plot, the data points would form a straight line with a negative slope.
+
+**Task** (Phil)
+**-- 1 --**
+This code generates heatmaps to provide a clear and concise comparison of key economic indicators across U.S. states. The dataset, which includes metrics such as population, GDP, and personal income, is processed and sorted to ensure the visualizations are both accurate and intuitive.
+
+Each heatmap highlights a single metric, allowing users to easily compare states. States are dynamically sorted by their values within each metric, ensuring that the visualizations emphasize the most significant differences. A red-orange color gradient enhances readability, while numeric annotations with one decimal precision provide clarity.
+
+Features eatures:
+- Sorted Visualizations: States are ranked by their values in each heatmap, making it easy to identify top and bottom performers.
+- Side-by-Side Comparisons: Multiple heatmaps are displayed in a grid layout, allowing users to compare metrics like population, GDP, and income simultaneously.
+
+**-- 2 --**
