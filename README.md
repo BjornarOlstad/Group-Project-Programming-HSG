@@ -57,3 +57,15 @@ This code performs a clustering analysis to group U.S. states based on their GDP
 A scatterplot visualizes the clusters by plotting GDP against personal income, with each cluster highlighted in a different color. The scatterplot also includes annotations in the legend to indicate the number of states in each cluster, making the distribution clear at a glance.
 
 To further analyze the clusters, the code generates boxplots for variables like GDP, personal income, and population. These boxplots, arranged in a 2x2 grid, provide a detailed view of how these variables are distributed within each cluster, highlighting economic disparities and patterns across states.
+
+
+** Task 5** (Simon)
+The program is a data analysis tool designed to enable interactive exploration of state-level economic data. It combines data processing, user-friendly graphical interfaces, and visualization to offer a seamless experience for analyzing data.
+
+At its core, the program loads a dataset containing detailed metrics about various U.S. states, such as population, GDP, personal income, and related economic indicators. Users can interact with the program via graphical dropdown menus to select specific regions and attributes of interest. The program filters the data to focus on the selected region and enriches it by calculating derived metrics like GDP per capita and income per capita.
+
+Once the data is processed, users can choose specific attributes to compare, and the program generates an interactive scatter plot. This plot visually represents relationships between the selected metrics, with state-level annotations that make it easy to interpret. Through this visualization, users gain deeper insights into the economic characteristics and performance of states within the chosen region.
+
+The combination of intuitive interfaces, rich data manipulation, and clear visual outputs makes the program an engaging tool for exploring economic data in a meaningful way.
+
+**Task 6** (Selina)
