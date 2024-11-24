@@ -1,15 +1,10 @@
 def task_name():
-    """
-    Task Description: Write a brief description of what your task does.
-    Example: This task performs data analysis on a specific dataset and generates visualizations.
-    """
+
     print("Task Name: A descriptive name for your task.")
     
     # Place your code here.
     # Ensure the code runs independently within this function.
     
-    # Example: Add your logic, calculations, visualizations, or analysis.
-    # Use print statements to provide feedback or display results.
     
     print("Task completed successfully.\n")
 
