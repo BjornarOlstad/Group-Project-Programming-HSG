@@ -3,7 +3,7 @@
 # The function should be named taskX(), where X is your task number (e.g., task1(), task2()).
 # Use this structure for your code:
 
-def task_3():
+def task1():
 
     print("Task Name: A descriptive name for your task.")
     
