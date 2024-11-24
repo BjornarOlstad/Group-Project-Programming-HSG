@@ -16,12 +16,12 @@ def main_menu():
     while True:
         # Print the main menu options
         print("\nMain Menu")  # Adding a blank line before the menu for readability
-        print("1. Task 1: Data Analysis")
-        print("2. Task 2: Visualization")
-        print("3. Task 3: Correlation Analysis")
-        print("4. Task 4: Clustering Analysis")
-        print("5. Task 5: Statistical Analysis")
-        print("6. Task 6: Advanced Modeling")
+        print("1. Task 1: Data Analysis and Visualization")
+        print("2. Task 2: ")
+        print("3. Task 3: ")
+        print("4. Task 4: ")
+        print("5. Task 5:  ")
+        print("6. Task 6: ")
         print("7. Exit")  # Exit option
         
         # Get the user's choice as input
