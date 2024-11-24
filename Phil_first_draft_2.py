@@ -57,4 +57,4 @@ for i, var in enumerate(variables):
     plt.xlabel("Cluster")
     plt.ylabel(var)
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.show(
+plt.show()
