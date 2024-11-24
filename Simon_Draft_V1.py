@@ -41,7 +41,14 @@ def select_region_dropdown(regions):
 def select_attributes_dropdown():
     # List of allowed attributes for selection
     allowed_attributes = [
-        "Pop", "GDP", "PI", "Sub", "CE", "TPI", "GDPp", "Pip"
+    "Population",
+    "GDP",
+    "Personal Income",
+    "Subsidies",
+    "Comp of Emp",
+    "Tax on Prod/Imp",
+    "GDP per capita",
+    "Income per capita"
     ]
     
     # Initialize the tkinter root window
@@ -110,18 +117,18 @@ def add_data_columns_to_selected_region(data, selected_region):
 
 # Function to plot data for the selected region
 def plot_data_for_selected_region(filtered_data):
-    # Map short attribute codes to their full column names
+    # Map short attribute codes to their full column names  
     attribute_map = {
-        "Pop": "Population (millions)",
+        "Population": "Population (millions)",
         "GDP": "GDP (billions)",
-        "PI": "Personal Income (billions)",
-        "Sub": "Subsidies (millions)",
-        "CE": "Comp of Emp (billions)",
-        "TPI": "Tax on Prod/Imp (billions)",
-        "GDPp": "GDP per capita",
-        "Pip": "Income per capita"
+        "Personal Income": "Personal Income (billions)",
+        "Subsidies": "Subsidies (millions)",
+        "Comp of Emp": "Comp of Emp (billions)",
+        "Tax on Prod/Imp": "Tax on Prod/Imp (billions)",
+        "GDP per capita": "GDP per capita",
+        "Income per capita": "Income per capita"
     }
-    
+
     # Select X and Y attributes via dropdown
     x_attr, y_attr = select_attributes_dropdown()
 
