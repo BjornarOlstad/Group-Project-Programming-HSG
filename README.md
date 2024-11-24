@@ -60,6 +60,7 @@ To further analyze the clusters, the code generates boxplots for variables like 
 
 
 **Task 5** (Simon)
+
 The program is a data analysis tool designed to enable interactive exploration of state-level economic data. It combines data processing, user-friendly graphical interfaces, and visualization to offer a seamless experience for analyzing data.
 
 At its core, the program loads a dataset containing detailed metrics about various U.S. states, such as population, GDP, personal income, and related economic indicators. Users can interact with the program via graphical dropdown menus to select specific regions and attributes of interest. The program filters the data to focus on the selected region and enriches it by calculating derived metrics like GDP per capita and income per capita.
