@@ -18,7 +18,7 @@ def main_menu():
         print("\nMain Menu")  # Adding a blank line before the menu for readability
         print("1. Task 1: Data Analysis and Visualization")
         print("2. Task 2: ")
-        print("3. Task 3: ")
+        print("3. Task 3: Corralation Analysis and Visualization")
         print("4. Task 4: ")
         print("5. Task 5:  ")
         print("6. Task 6: ")
