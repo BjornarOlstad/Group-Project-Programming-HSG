@@ -80,27 +80,27 @@ def get_valid_region(data_list):
             # If invalid, inform the user and prompt again
             print("Invalid region name. Please try again.")
 
-
 # Function to prompt the user to select a valid state from region_data
-# Purpose: To prompt the user for a specific state within the chosen region, and validate the choice
+# Purpose: To prompt the user for a specific state within the chosen region, validate the input, and handle formatting issues.
 def get_valid_state(region_data):
-    # Extract state names from region_data (first element in each list)
-    valid_states = {state_data[0] for state_data in region_data}
+    # Extract state names from region_data (first element in each list) and strip any extra spaces
+    valid_states = {state_data[0].strip() for state_data in region_data}  
     
-    # Loop to continually prompt until a valid state is entered
+    # Loop to continually prompt the user until a valid state is entered
     while True:
-        # Prompt user to select a state within the chosen region
+        # Prompt user to select a state within the region and remove any leading/trailing spaces from the input
         state = input(f"Enter a state from the following list: {', '.join(valid_states)}\n").strip()
         
-        # Check if the entered state is valid
-        if state in valid_states:
-            # If valid, find and return the data for this state
-            for state_data in region_data:
-                if state_data[0] == state:
-                    return state_data
-        else:
-            # If invalid, inform the user and prompt again
-            print("Invalid state name. Please try again.")
+        # Check if the entered state matches a valid state in the region
+        for state_data in region_data:
+            # Compare the input with the state names in region_data
+            if state.lower() == state_data[0].strip().lower():
+                # If a match is found, return the corresponding state data
+                return state_data
+        
+        # If no match is found, notify the user and prompt again
+        print("Invalid state name. Please try again.")
+
 
 
 # Main program execution
@@ -181,7 +181,5 @@ plt.title(f"{selected_state_data[0]}'s Share of Total GDP in the {selected_regio
 
 # Display pie chart
 plt.show()
-
-
 
 
