@@ -102,4 +102,3 @@ def task1():
     
     print("Task completed successfully.\n")
 
-
