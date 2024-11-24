@@ -45,3 +45,17 @@ def main_menu():
             break  # Exit the loop and terminate the program
         else:
             print("Invalid choice. Please try again.")  # Handle invalid inputs
+
+
+  
+  #  We have consciously chosen to make menu.py the main entry point for this program.
+  #  This design decision simplifies the project structure by combining the menu logic 
+  #  and the main entry point in one file. While this approach works well for small to 
+  #  medium-sized projects, in larger projects, we would consider separating the 
+  #  main entry point (main.py) from menu logic for better modularity and maintainability.
+
+
+
+if __name__ == "__main__":
+   
+    main_menu() 
