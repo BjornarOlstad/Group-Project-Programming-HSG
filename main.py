@@ -9,10 +9,10 @@ from task5 import task5
 from task6 import task6
 
 def main_menu():
-    """
-    Displays a menu and allows the user to select a task to execute.
-    The menu loops until the user selects "Exit".
-    """
+    
+# Displays a menu and allows the user to select a task to execute.
+# The menu loops until the user selects "Exit".
+    
     while True:
         # Print the main menu options
         print("\nMain Menu")  # Adding a blank line before the menu for readability
@@ -25,7 +25,7 @@ def main_menu():
         print("7. Exit")  # Exit option
         
         # Get the user's choice as input
-        choice = input("Select a task (1-6) og 7 for exit: ")  # Prompt user input
+        choice = input("Select a task (1-6) og 7 for exit: ")  
         
         # Handle the user's choice
         if choice == "1":
