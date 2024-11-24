@@ -4,7 +4,7 @@ def task3():
     This code performs correlation analysis by allowing users to select columns from the state dataset, 
     and then computes and visualizes the correlation between the selected columns.
     """
-    print("Task Name: Corralation Analysis and Visualization")
+    print("Task Name: Correlation Analysis and Visualization")
 
     #import libraries
     import pandas as pd
