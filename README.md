@@ -8,6 +8,14 @@ We use the dataset called State_Data.csv. The source can be found here: https://
 
 The document Project.02.docx serves as an inspiration for this project, but we have made some changes. 
 
+**Execution**
+
+Download the entire folder from git. It contains the python file for task 1-6, the main file, a folder with the dataset and the readme file.
+
+The pycache folder can be ignored.
+
+To run the program, open and run the main.py file. 
+
 **Task 1** (Björnar)
 
 Inspired by Task 2 in Project.02 docx, this code is designed to load, filter, and analyze economic data for U.S. states, allowing the user to select a region and then a specific state within that region. The code begins by loading a dataset containing information like state name, region, population, GDP, and personal income. After loading, the data is converted into a list structure where each entry represents a state, with values adjusted to actual numbers for easier calculations.

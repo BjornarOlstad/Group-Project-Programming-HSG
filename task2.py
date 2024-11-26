@@ -14,7 +14,7 @@ def task2():
     from sklearn.metrics import mean_squared_error, r2_score
 
     # Load the dataset
-    df = pd.read_csv("State_Data.csv")
+    df = pd.read_csv("data/State_Data.csv")
 
     # Function to convert the DataFrame into a list of lists
     def load_data_as_list(df):

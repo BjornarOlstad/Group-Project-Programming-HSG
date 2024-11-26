@@ -11,7 +11,7 @@ def task3():
     import matplotlib.pyplot as plt
 
     # Load the dataset
-    df = pd.read_csv("State_Data.csv")
+    df = pd.read_csv("data/State_Data.csv")
 
     # Create list of available columns for comparison
     columns = [
@@ -79,3 +79,4 @@ def task3():
     plt.show()
 
     print("Task completed successfully.\n")
+

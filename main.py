@@ -4,9 +4,9 @@
 from task1 import task1
 from task2 import task2
 from task3 import task3
-from task4 import task4
+#from task4 import task4
 from task5 import task5
-from task6 import task6
+#from task6 import task6
 
 def main_menu():
     
@@ -17,10 +17,10 @@ def main_menu():
         # Print the main menu options
         print("\nMain Menu")  # Adding a blank line before the menu for readability
         print("1. Task 1: Data Analysis and Visualization")
-        print("2. Task 2: ")
+        print("2. Task 2: Regression Analysis")
         print("3. Task 3: Correlation Analysis and Visualization")
         print("4. Task 4: ")
-        print("5. Task 5:  ")
+        print("5. Task 5: Region-Based Data Filtering, Analysis, and Visualization")
         print("6. Task 6: ")
         print("7. Exit")  # Exit option
         
@@ -34,21 +34,21 @@ def main_menu():
             task2()  # Call Task 2 function
         elif choice == "3":
             task3()  # Call Task 3 function
-        elif choice == "4":
-            task4()  # Call Task 4 function
+        #elif choice == "4":
+            #task4()  # Call Task 4 function
         elif choice == "5":
             task5()  # Call Task 5 function
-        elif choice == "6":
-            task6()  # Call Task 6 function
+        #elif choice == "6":
+            #task6()  # Call Task 6 function
         elif choice == "7":
-            print("Exiting program.")  # Exit message
+            print("Exiting program. Thanks for using")  # Exit message
             break  # Exit the loop and terminate the program
         else:
             print("Invalid choice. Please try again.")  # Handle invalid inputs
 
 
   
-  #  We have consciously chosen to make menu.py the main entry point for this program.
+  #  We have consciously chosen to make a menu script named menu.py the main entry point for this program.
   #  This design decision simplifies the project structure by combining the menu logic 
   #  and the main entry point in one file. While this approach works well for small to 
   #  medium-sized projects, in larger projects, we would consider separating the 
