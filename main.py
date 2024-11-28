@@ -4,7 +4,8 @@
 from task1 import task1
 from task2 import task2
 from task3 import task3
-#from task4 import task4
+from task4_1 import task_1
+from task4_2 import task_2
 from task5 import task5
 #from task6 import task6
 
@@ -19,7 +20,8 @@ def main_menu():
         print("1. Task 1: Data Analysis and Visualization")
         print("2. Task 2: Regression Analysis")
         print("3. Task 3: Correlation Analysis and Visualization")
-        print("4. Task 4: ")
+        print("4. Task 4_1: ")
+        print("4. Task 4_2: ")
         print("5. Task 5: Region-Based Data Filtering, Analysis, and Visualization")
         print("6. Task 6: ")
         print("7. Exit")  # Exit option
@@ -34,8 +36,10 @@ def main_menu():
             task2()  # Call Task 2 function
         elif choice == "3":
             task3()  # Call Task 3 function
-        #elif choice == "4":
-            #task4()  # Call Task 4 function
+        elif choice == "4_1":
+            task4_1()  # Call Task 4 function
+        elif choice == "4_1":
+            task4_2() 
         elif choice == "5":
             task5()  # Call Task 5 function
         #elif choice == "6":
