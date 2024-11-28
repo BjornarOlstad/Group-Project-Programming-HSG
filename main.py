@@ -4,8 +4,8 @@
 from task1 import task1
 from task2 import task2
 from task3 import task3
-from task4_1 import task_1
-from task4_2 import task_2
+from task4_1 import task4_1
+from task4_2 import task4_2
 from task5 import task5
 #from task6 import task6
 
