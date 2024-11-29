@@ -11,7 +11,7 @@ def task4_2():
     import matplotlib.pyplot as plt
     
     # Load the dataset containing economic indicators of states
-    df = pd.read_csv("State_Data.csv")
+    df = pd.read_csv("data/State_Data.csv")
     
     # Select relevant columns for clustering
     X = df[['Population (millions)', 'GDP (billions)', 'Personal Income (billions)',
@@ -63,3 +63,4 @@ def task4_2():
         plt.ylabel(var)
     plt.tight_layout()  # Adjust layout to prevent overlap
     plt.show()
+

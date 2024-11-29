@@ -9,7 +9,7 @@ def task4_1():
     import seaborn as sns  
     
     # Reading the dataset into a DataFrame
-    df = pd.read_csv("State_Data.csv")  
+    df = pd.read_csv("data/State_Data.csv")  
     
     # Selecting the specific columns to visualize
     columns = ['Population (millions)', 'GDP (billions)', 'Personal Income (billions)']
@@ -34,3 +34,4 @@ def task4_1():
     
     # Rendering the figure to display the visualizations
     plt.show()
+

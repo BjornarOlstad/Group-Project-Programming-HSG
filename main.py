@@ -17,33 +17,33 @@ def main_menu():
     while True:
         # Print the main menu options
         print("\nMain Menu")  # Adding a blank line before the menu for readability
-        print("1. Task 1: Data Analysis and Visualization")
-        print("2. Task 2: Regression Analysis")
-        print("3. Task 3: Correlation Analysis and Visualization")
-        print("4. Task 4_1: ")
-        print("4. Task 4_2: ")
-        print("5. Task 5: Region-Based Data Filtering, Analysis, and Visualization")
-        print("6. Task 6: ")
+        print("Task 1: Data Analysis and Visualization")
+        print("Task 2: Regression Analysis")
+        print("Task 3: Correlation Analysis and Visualization")
+        print("Task 4.1: Data Visualization - Heatmap")
+        print("Task 4.2: Clustering Analysis of Economic Patterns Across Regions")
+        print("Task 5: Region-Based Data Filtering, Analysis, and Visualization")
+        print("Task 6: ")
         print("7. Exit")  # Exit option
         
         # Get the user's choice as input
-        choice = input("Select a task (1-6) og 7 for exit: ")  
+        choice = input("Select tasknumber (1-6) og 7 for exit: ")  
         
         # Handle the user's choice
         if choice == "1":
-            task1()  # Call Task 1 function
+            task1()  
         elif choice == "2":
-            task2()  # Call Task 2 function
+            task2()  
         elif choice == "3":
-            task3()  # Call Task 3 function
-        elif choice == "4_1":
-            task4_1()  # Call Task 4 function
-        elif choice == "4_1":
+            task3()  
+        elif choice == "4.1":
+            task4_1() 
+        elif choice == "4.2":
             task4_2() 
         elif choice == "5":
-            task5()  # Call Task 5 function
+            task5()  
         #elif choice == "6":
-            #task6()  # Call Task 6 function
+            #task6() 
         elif choice == "7":
             print("Exiting program. Thanks for using")  # Exit message
             break  # Exit the loop and terminate the program
