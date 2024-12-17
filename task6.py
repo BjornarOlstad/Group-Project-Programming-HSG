@@ -1,6 +1,16 @@
-import pandas as pd
-import pylab
-import matplotlib.pyplot as plt
+def task6():
+    """
+    Task 6: Visualization Tool
+    This code helps to visualize per capita per state data
+    """
+  
+    print("Task Name: Visualization Tool")
+
+    # Import libraries
+    import pandas as pd
+    import pylab
+    import matplotlib.pyplot as plt
+
 
 # Load the data
 data = pd.read_csv('/mnt/data/State_Data.csv')
