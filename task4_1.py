@@ -1,6 +1,5 @@
 def task4_1():
    
-    
     print("Task 4_1: Data Visualization - Heatmap")
 
     # Importing required libraries

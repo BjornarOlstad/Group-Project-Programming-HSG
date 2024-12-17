@@ -7,7 +7,7 @@ from task3 import task3
 from task4_1 import task4_1
 from task4_2 import task4_2
 from task5 import task5
-#from task6 import task6
+from task6 import task6
 
 def main_menu():
     
@@ -23,11 +23,11 @@ def main_menu():
         print("Task 4.1: Data Visualization - Heatmap")
         print("Task 4.2: Clustering Analysis of Economic Patterns Across Regions")
         print("Task 5: Region-Based Data Filtering, Analysis, and Visualization")
-        print("Task 6: ")
+        print("Task 6: Visualization Tool")
         print("7. Exit")  # Exit option
         
         # Get the user's choice as input
-        choice = input("Select tasknumber (1-6) og 7 for exit: ")  
+        choice = input("Select tasknumber (1-6) or 7 for exit: ")  
         
         # Handle the user's choice
         if choice == "1":
@@ -42,8 +42,8 @@ def main_menu():
             task4_2() 
         elif choice == "5":
             task5()  
-        #elif choice == "6":
-            #task6() 
+        elif choice == "6":
+            task6() 
         elif choice == "7":
             print("Exiting program. Thanks for using")  # Exit message
             break  # Exit the loop and terminate the program

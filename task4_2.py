@@ -1,6 +1,5 @@
 def task4_2():
     
-    
     print("Task 4_2: Clustering Analysis of Economic Patterns Across Regions")
 
     # Import necessary libraries

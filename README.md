@@ -16,7 +16,7 @@ The pycache folder can be ignored.
 
 To run the program, open and run the main.py file. 
 
-**Task 1** (Björnar)
+**Task 1** 
 
 Inspired by Task 2 in Project.02 docx, this code is designed to load, filter, and analyze economic data for U.S. states, allowing the user to select a region and then a specific state within that region. The code begins by loading a dataset containing information like state name, region, population, GDP, and personal income. After loading, the data is converted into a list structure where each entry represents a state, with values adjusted to actual numbers for easier calculations.
 
@@ -31,11 +31,11 @@ result and region_data: Filtered lists for the selected region.
 valid_regions and valid_states: Sets of unique region and state names.
 selected_state_data: Detailed data for the user-selected state.
 
-**Task 2** (Andreas)
+**Task 2** 
 
 This regression code analyzes the relationship between population and GDP across U.S. states to see if population size can predict economic output. It first splits the data into training and testing sets to validate the model’s performance, then fits a linear regression model on the training data. Using Mean Squared Error (MSE) and R² score, the model’s accuracy is assessed by comparing predicted GDP values with actual values in the test set. A scatter plot displays the actual data points, with the regression line overlaid to visually represent the model’s interpretation of the relationship. This approach provides insights into how well population size correlates with GDP and highlights the strength of this linear relationship.
 
-**Task 3** (Larissa)
+**Task 3** 
 
 This correlation analysis code allows users to select two parameters from a dataset of U.S. states to examine the relationship between them. The user is prompted to choose two different columns from options such as Population, GDP, Personal Income, Subsidies, Compensation of Employees, and Tax on Production/Imports. The code then calculates the correlation coefficient between the selected parameters to quantify the strength and direction of their relationship. A scatter plot is generated to visually represent the data points, with the x-axis and y-axis labeled according to the chosen parameters. The plot provides a clear visual interpretation of how the two variables are related, helping to identify any potential linear relationships.
 
@@ -46,7 +46,7 @@ Explanation of Correlation Coefficients:
 
 - Correlation of -1: A correlation coefficient of -1 indicates a perfect negative linear relationship between two variables. This means that as one variable increases, the other variable decreases in a perfectly linear manner. In a scatter plot, the data points would form a straight line with a negative slope.
 
-**Task 4** (Phil)
+**Task 4** 
 
 -- 1 --
 
@@ -67,7 +67,7 @@ A scatterplot visualizes the clusters by plotting GDP against personal income, w
 To further analyze the clusters, the code generates boxplots for variables like GDP, personal income, and population. These boxplots, arranged in a 2x2 grid, provide a detailed view of how these variables are distributed within each cluster, highlighting economic disparities and patterns across states.
 
 
-**Task 5** (Simon)
+**Task 5** 
 
 The program is a data analysis tool designed to enable interactive exploration of state-level economic data. It combines data processing, user-friendly graphical interfaces, and visualization to offer a seamless experience for analyzing data.
 
@@ -77,6 +77,6 @@ Once the data is processed, users can choose specific attributes to compare, and
 
 The combination of intuitive interfaces, rich data manipulation, and clear visual outputs makes the program an engaging tool for exploring economic data in a meaningful way.
 
-**Task 6** (Selina)
+**Task 6** 
 
 This code offers some visualization on the analysis of economic data for US states. Firstly, it calculates per capital metrics (GDP per capita and Personal Income per capita are derived from the GDP, income & population data in the file). Secondly, it generates different charts to visualize the data and offer additional insights. A bar chart visualizes the average GDP per capita per region (Far East, Great Lakes, Mideast, NE, Plains, Rocky Mountains, SE, SW). The pie chart on the other hand shows the population distribution across the regions that were just specified. Lastly, the scatter plot, shows GDP against pupation on a state-basis. The region-based scatter plot gives the user the chance to make an in-depth analysis (specific region or all states) —> therefore, the user has to select two metrics for the X any Y axis, that want to be analyzed.
