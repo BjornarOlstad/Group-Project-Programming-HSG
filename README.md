@@ -78,4 +78,5 @@ Once the data is processed, users can choose specific attributes to compare, and
 The combination of intuitive interfaces, rich data manipulation, and clear visual outputs makes the program an engaging tool for exploring economic data in a meaningful way.
 
 **Task 6** (Selina)
+
 This code offers some visualization on the analysis of economic data for US states. Firstly, it calculates per capital metrics (GDP per capita and Personal Income per capita are derived from the GDP, income & population data in the file). Secondly, it generates different charts to visualize the data and offer additional insights. A bar chart visualizes the average GDP per capita per region (Far East, Great Lakes, Mideast, NE, Plains, Rocky Mountains, SE, SW). The pie chart on the other hand shows the population distribution across the regions that were just specified. Lastly, the scatter plot, shows GDP against pupation on a state-basis. The region-based scatter plot gives the user the chance to make an in-depth analysis (specific region or all states) —> therefore, the user has to select two metrics for the X any Y axis, that want to be analyzed.
